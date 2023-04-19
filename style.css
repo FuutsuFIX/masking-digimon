@@ -2,6 +2,7 @@ body {
   margin: 0px;
   background: white;
   height: 100vw;
+  background: url(./background.png);
 }
 header .navbar {
   width: 100%;
@@ -89,7 +90,7 @@ header .navbar {
   position: relative;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(#2f84f1, white);
+  background-image: linear-gradient(rgba(47, 132, 241, 1), rgba(0, 0, 0, 0));
   margin-bottom: 30.5vw;
   z-index: -1;
 }
