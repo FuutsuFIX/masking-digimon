@@ -172,3 +172,50 @@ header .navbar {
   justify-content: space-around;
   align-items: center;
 }
+
+.center-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.about-home {
+  font-size: 18px;
+  margin: 2em;
+}
+.home-neumorphism {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 64px 0px;
+  width: 100%;
+  max-width: 768px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9;
+}
+.home-neumorphism a {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.about-matt,
+.about-taichi {
+  margin: 2em 1em;
+  position: absolute;
+  width: 560px;
+  top: 0;
+  z-index: -1;
+}
+.about-matt {
+  left: 0;
+}
+
+.about-taichi {
+  right: 0;
+}
+.home-neumorphism a img {
+  display: inline-block;
+  width: 32px;
+}
