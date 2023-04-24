@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   background: white;
-  height: 100vw;
+  min-height: 100vw;
   background: url(./background.png);
 }
 header .navbar {
@@ -56,7 +56,6 @@ header .navbar {
   color: #1251d0;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -66,7 +65,6 @@ header .navbar {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
@@ -76,12 +74,10 @@ header .navbar {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -159,15 +155,6 @@ header .navbar {
   }
 }
 
-.terriermon {
-  position: relative;
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  background-color: red;
-  /*animation: kick 0.5s steps(6) infinite;*/
-}
-
 .container-link-navbar {
   display: flex;
   justify-content: space-around;
@@ -178,6 +165,7 @@ header .navbar {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 .about-home {
   font-size: 18px;
@@ -205,7 +193,8 @@ header .navbar {
 .about-taichi {
   margin: 2em 1em;
   position: absolute;
-  width: 560px;
+  width: 100%;
+  max-width: 560px;
   top: 0;
   z-index: -1;
 }
@@ -218,4 +207,66 @@ header .navbar {
 }
 .home-neumorphism a img {
   display: inline-block;
+}
+
+footer {
+  width: 100%;
+  height: 256px;
+  border-top: 2px solid white;
+  background-color: #1251d0;
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  max-height: 32px;
+  max-width: 20em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-icons i {
+  transition: all 0.2s;
+}
+.footer-icons i:hover {
+  font-size: 48px;
+}
+
+.cast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cast-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+  width: 100%;
+  min-width: 820px;
+  max-width: 80%;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9;
+}
+.cast-img-container {
+  width: 250px;
+  height: 250px;
+}
+.cast-img-container img {
+  width: 100%;
+}
+
+.cast-pg-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
