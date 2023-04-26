@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&family=Silkscreen&display=swap");
 body {
   margin: 0px;
   background: white;
   background: url(./background.png);
+}
+
+p,
+figcaption {
+  font-family: "Monda", sans-serif;
+}
+a,
+button,
+.button-link {
+  font-family: "Silkscreen", cursive;
+  font-weight: bold;
+}
+.button-link {
+  display: inline;
 }
 header .navbar {
   width: 100%;
