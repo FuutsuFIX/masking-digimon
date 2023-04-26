@@ -6,7 +6,10 @@ body {
 }
 
 p,
-figcaption {
+figcaption,
+h1,
+h2,
+h3 {
   font-family: "Monda", sans-serif;
 }
 a,
@@ -14,6 +17,7 @@ button,
 .button-link {
   font-family: "Silkscreen", cursive;
   font-weight: bold;
+  font-size: 32px;
 }
 .button-link {
   display: inline;
@@ -38,7 +42,7 @@ header .navbar {
   font-size: 32px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -57,11 +61,14 @@ header .navbar {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 12px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   transition: all 0.5s;
+}
+.dropbtn i {
+  display: inline;
 }
 
 .navbar a:hover,
