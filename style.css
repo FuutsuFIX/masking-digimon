@@ -284,7 +284,7 @@ footer a {
 }
 .footer-icons i:hover,
 footer a:hover {
-  font-size: 48px;
+  transform: scale(1.5);
 }
 
 footer a {
@@ -323,6 +323,8 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 320px;
+  max-width: 30%;
 }
 
 .gallery-container {
@@ -426,27 +428,36 @@ footer a {
   border-radius: 50px;
 }
 
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title-line {
+  width: 25%;
+  height: 8px;
+  background-color: #1251d0;
+}
+
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  width: 180px;
-  height: 180px;
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: 1px solid #1251d0; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: transparent; /* Set a background color */
-  color: #1251d0; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 64px; /* Increase font size */
-  transition: all 1s;
+  display: none;
+  position: fixed;
+  width: 140px;
+  height: 140px;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 #myBtn img {
   width: 100%;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  transform: scale(1.3);
 }
