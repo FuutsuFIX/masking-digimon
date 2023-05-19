@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   background: white;
-  background: url(./background.png);
+  background: url(./img/background.png);
 }
 html {
   scroll-behavior: smooth;
@@ -73,8 +73,8 @@ header .navbar {
   color: white;
   padding: 12px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0;
   transition: all 0.5s;
 }
 .dropbtn i {
@@ -137,8 +137,8 @@ header .navbar {
   top: -12vw;
   display: block;
 
-  -webkit-mask-image: url(./maskProtagonists.svg);
-  mask-image: url(./maskProtagonists.svg);
+  -webkit-mask-image: url(./img/maskProtagonists.svg);
+  mask-image: url(./img/maskProtagonists.svg);
 
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
